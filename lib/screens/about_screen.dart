@@ -335,7 +335,7 @@ The app uses machine learning to identify patterns in skin images that may indic
                           opacity: _fadeAnimation.value * 0.6,
                           child: Center(
                             child: Text(
-                              '© 2024 Skin Scanner\nFor Educational Use Only',
+                              '© 2025 Skin Scanner\nCairo University - Faculty of Engineering\nBiomedical Engineering Department\nFor Educational Use Only',
                               style: Theme.of(context).textTheme.bodySmall
                                   ?.copyWith(color: Colors.white38),
                               textAlign: TextAlign.center,

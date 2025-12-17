@@ -55,5 +55,4 @@ flutter:
 
   assets:
     - lib/ai/skin_cancer_model.tflite
-    - lib/ai/skin_cancer_model_ready.tflite
     - lib/ai/labels_cancer.txt

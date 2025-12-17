@@ -21,8 +21,6 @@ class ClassificationResult {
 
 class SkinCancerClassifier {
   static const String _modelAsset = 'lib/ai/skin_cancer_model.tflite';
-  static const String _modelAssetBackup =
-      'lib/ai/skin_cancer_model_ready.tflite';
   static const String _labelsAsset = 'lib/ai/labels_cancer.txt';
 
   // Fixed model input size: 299x299x3
