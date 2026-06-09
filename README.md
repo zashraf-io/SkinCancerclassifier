@@ -1,6 +1,7 @@
 # skin_cancer_detector
 
-A new Flutter project.
+A mobile Application built with flutter, uses offline fine tuned CV model to detect skin canccer in real time using phone camera.
+Accuraccy of about ~80%
 
 ## Getting Started
 
