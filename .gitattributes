@@ -1,0 +1,14 @@
+# Git LFS tracking rules
+# Track large TFLite model files
+*.tflite filter=lfs diff=lfs merge=lfs -text
+
+# Track other common ML model formats
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pb filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+
+# Track large binary assets
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text

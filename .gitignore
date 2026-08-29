@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# NOTE: *.tflite files are tracked via Git LFS (see .gitattributes)
+# Do NOT add *.tflite here — they must be committed via LFS.
+
